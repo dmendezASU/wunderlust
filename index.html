@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Wunderlust Travel </title>
      <html lang="en">
        </head>
   <body>
     <a href="#maincontent">Skip to Main</a>
-    <img  srcset="images/logo-S.png 320w,images/logo-M.png,780w, images/logo-L.png 1024w"
-         sizes="(min-width: 320px) 90vw, (min-width:1024px) 50vw"  alt="Wunderlust logo" /><br>
+    <p>
+        <picture> 
+            <source media="(max-width: 320px)" srcset="images/logo-S.png" />
+            <source media="(min-width: 780px)" srcset="images/logo-M.png" />
+            <source media="(min-width: 1024px)" srcset="images/logo-L.png" />
+             <img src="images/logo-L.png" alt="Wunderlust logo" />
+         </picture>
+        </p>
+
     <div class="container">
       <h1>Let Wunderlust Travel help you plan the trip of your dreams!</h1>
   <p>
@@ -26,12 +35,26 @@
   <main><main id="maincontent"></main><h2>Majorca</h2>
   Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.
   <p>
-    <img  srcset="images/majorca-waves-S.png 320w,images/majorca-waves-M.png, 780w,images/majorca-waves-L.png 1024w"
-         sizes="(min-width: 320px) 90vw, (min-width:1024px) 50vw"  alt="Waves in the ocean in Majorca, Spain" />
-     <img  srcset="images/majorca-beach-S.png 320w,images/majorca-beach-M.png, 780w,images/majorca-beach-L.png 1024w"
-         sizes="(min-width: 320px) 90vw, (min-width:1024px) 50vw"  alt="A beach in Majorca, Spain" />
-     <img  srcset="images/majorca-cove-S.png 320w, images/majorca-cove-M.png, 780w, images/majorca-cove-L.png 1024w"
-         sizes="(min-width: 320px) 90vw, (min-width:1024px) 50vw"  alt="An ocean cove in Majorca, Spain" />
+    <picture> 
+        <source media="(max-width: 320px)" srcset="images/majorca-waves-S.png" />
+        <source media="(min-width: 780px)" srcset="images/majorca-waves-M.png" />
+        <source media="(min-width: 1024px)" srcset="images/majorca-waves-L.png" />
+        <img src="images/majorca-waves-L.png" alt="Waves in the ocean in Majorca, Spain" />
+     </picture>
+  
+     <picture> 
+        <source media="(max-width: 320px)" srcset="images/majorca-beach-S.png" />
+        <source media="(min-width: 780px)" srcset="images/majorca-beach-M.png" />
+        <source media="(min-width: 1024px)" srcset="images/majorca-beach-L.png" />
+         <img src="images/majorca-beach-L.png" alt="A beach in Majorca, Spain" />
+     </picture>
+
+     <picture> 
+        <source media="(max-width: 320px)" srcset="images/majorca-cove-S.png" />
+        <source media="(min-width: 780px)" srcset="images/majorca-cove-M.png" />
+        <source media="(min-width: 1024px)" srcset="images/majorca-cove-L.png" />
+         <img src="images/majorca-cove-L.png" alt="An ocean cove in Majorca, Spain" />
+     </picture>
     </P>
   <p>
     <article><h2>Plan Your Trip</h2>
