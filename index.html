@@ -108,8 +108,12 @@
   <hr>
   <p>
   <article> <h2>Testimonials</h2></p>
-    <img  srcset="images/miranda-blake-S.png 320w,imagesmiranda-blake-M.png, 780w,images/miranda-blake-L.png 1024w"
-         sizes="(min-width: 320px) 90vw, (min-width:1024px) 50vw"  alt="Photo of Miranda Blake" /><br>
+    <picture> 
+        <source media="(max-width: 320px)" srcset="images/miranda-blake-S.png" />
+        <source media="(min-width: 780px)" srcset="images/miranda-blake-M.png" />
+        <source media="(min-width: 1024px)" srcset="images/miranda-blake-L.png" />
+         <img src="images/miranda-blake-L.png" alt="Photo of Miranda Blake" />
+         <br>
          <div>
     <blockquote>
       <p>“I traveled here for business, but my stay was extended. Now it is my home.”</p>
