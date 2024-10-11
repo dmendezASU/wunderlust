@@ -301,6 +301,7 @@ header img{
 
 #plan div {
 	display:flex;
+	flex-flow: column wrap;
 }	
 	#plan section {
 		flex: 1;
