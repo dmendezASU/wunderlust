@@ -325,7 +325,7 @@ input[type=submit]{
 @media screen and (min-width:428px){
 	
 	h1{
-	margin: 2;
+	margin: 7;
 	display: flex;
 	justify-content: flex-start;
 	}
