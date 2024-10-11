@@ -110,6 +110,10 @@ img {
 q {
 	font-style: italic;
 	padding: 2px;
+	font-size: 2.25rem;
+	display: block;
+	margin: 1rem 0;
+	line-height: 1.35;
 }
 
 /*-----HEADER STYLES-----*/
@@ -266,10 +270,6 @@ input[type=submit]{
  /* -----MOBILE STYLES----- */
 
 @media screen and (min-width:428px){
-
-header img{
-		margin: 0 1em;
-	}
 	
 	h1{
 	margin: 0;
