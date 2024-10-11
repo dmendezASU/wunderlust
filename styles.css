@@ -272,7 +272,7 @@ input[type=submit]{
 
  /* -----MOBILE STYLES----- */
 
-@media screen and (max-width:428){
+@media screen and (max-width:428px){
 
 header img{
 		margin: 0 1em;
@@ -338,12 +338,12 @@ header img{
 	}
 
 /* -----TABLET STYLES----- */
-@media screen and (min-width:768){
+@media screen and (min-width:768px){
 	
 }
 
 /* -----LARGE SCREEN STYLES----- */
-@media screen and (min-width:1920){
+@media screen and (min-width:1920px){
 	
 }
 
