@@ -178,17 +178,6 @@ img {
   background-color: var(--yellow);
 }
 
-#plan section {
-	background-color: var(--light-blue);
-	margin: 13px auto;
-	padding: 5px;
-	width: 80%;
-	min-height: ;
-}
-
-#plan img{
-	width: 60%;
-}
 
 #testimonials{
 	width: 100%;
@@ -298,7 +287,6 @@ header img{
 	
 	h1{
 	margin: 0;
-	font-size: 1em;
 	display: flex;
 	justify-content: flex-start;
 	}
@@ -311,7 +299,18 @@ header img{
 	width: 100%;
 	}
 	
-
+	#plan section {
+		background-color: var(--light-blue);
+		margin: 13px auto;
+		padding: 5px;
+		width: 80%;
+		min-height: ;
+		border: 1px solid white;
+	}
+	
+	#plan img{
+		width: 60%;
+	}
 
 /* -----TABLET STYLES----- */
 @media screen and (min-width:768){
