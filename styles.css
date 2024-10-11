@@ -246,16 +246,6 @@ input[type=email] {
 	border: 2px solid var(--purple);
 	border-radius: 4px;
   }
-  
-  input[type=destination] {
-	border: 2px solid var(--purple);
-	border-radius: 4px;
-  }
-
-  input[type=travelTime] {
-	border: 2px solid var(--purple);
-	border-radius: 4px;
-  }
 
   input, select{
 	display: block;
@@ -263,6 +253,8 @@ input[type=email] {
 	margin-bottom: .5rem;
 	padding: 1rem;
 	height: 2rem;
+	background-color: var(--purple);
+	border-radius: 4px;
 }
 
 fieldset{
