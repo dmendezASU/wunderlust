@@ -426,7 +426,7 @@ input[type=submit]{
 	  /*
 	   * Use absolute positioning to place the menu off-screen
 	   */
-	  #menu {
+	  #menuToggle ul {
 		position: absolute;
 		width: 300px;
 		margin: -100px 0 0 -50px;
