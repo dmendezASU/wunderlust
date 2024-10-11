@@ -179,6 +179,13 @@ img {
   background-color: var(--yellow);
 }
 
+#plan section {
+	background-color: var(--light-blue);
+	margin: 13px auto;
+	padding: 5px;
+	border: 2px solid white;
+	border-radius: 3%;
+}
 
 #testimonials{
 	width: 100%;
@@ -266,7 +273,6 @@ input[type=submit]{
  /* -----MOBILE STYLES----- */
 
 @media screen and (min-width:428){
-	
 
 header img{
 		margin: 0 1em;
