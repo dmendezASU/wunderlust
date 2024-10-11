@@ -351,9 +351,9 @@ input[type=submit]{
 	#plan section {
 		flex: 1 1 20em;
 		background-color: var(--light-blue);
-		margin: 13px auto;
-		padding: 5px;
-		width: 75%;
+		margin: 8px auto;
+		padding: 15px;
+		width: 80%;
 		border: 2px solid white;
 		border-radius: 3%;
 		height: 100%;
