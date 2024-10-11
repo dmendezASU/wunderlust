@@ -265,11 +265,8 @@ input[type=submit]{
 
  /* -----MOBILE STYLES----- */
 
-@media screen and (min-width:428){display:flex;
-		flex-direction: column;
-		justify-content: space-evenly;
-		width: 100%;
-		padding: 1rem 0;
+@media screen and (min-width:428){
+	
 
 header img{
 		margin: 0 1em;
@@ -319,7 +316,7 @@ header img{
 		align-items: stretch;
 	
 	}	
-		#plan section {
+		#about section {
 			flex: 1 1 20em;
 			background-color: var(--light-blue);
 			margin: 13px auto;
@@ -329,7 +326,7 @@ header img{
 			border-radius: 3%;
 		}
 		
-		#plan img{
+		#about img{
 			width: 60%;
 		}
 	}
