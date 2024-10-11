@@ -606,6 +606,7 @@ footer{
 }
 footer section{
 	display:flex;
+	flex-direction: column wrap;
   max-width: 300px;
   margin: auto;
 }
