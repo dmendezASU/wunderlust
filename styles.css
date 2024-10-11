@@ -108,7 +108,8 @@ img {
 }
 
 q {
-	font-weight: oblique;
+	font-style: italic;
+	padding: 2px;
 }
 
 /*-----HEADER STYLES-----*/
