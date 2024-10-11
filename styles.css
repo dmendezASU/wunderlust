@@ -232,7 +232,17 @@ label{
 	font-weight: bold;
 }
 
-input[type=text] [type=prefEmail] {
+input[type=text] {
+	border: 2px solid var(--purple);
+	border-radius: 4px;
+  }
+
+  input[type=text] {
+	border: 2px solid var(--purple);
+	border-radius: 4px;
+  }
+
+  input[type=prefEmail] {
 	border: 2px solid var(--purple);
 	border-radius: 4px;
   }
