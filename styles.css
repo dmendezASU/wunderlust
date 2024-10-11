@@ -247,6 +247,16 @@ input[type=email] {
 	border-radius: 4px;
   }
   
+  input[type=destination] {
+	border: 2px solid var(--purple);
+	border-radius: 4px;
+  }
+
+  input[type=travelTime] {
+	border: 2px solid var(--purple);
+	border-radius: 4px;
+  }
+
   input, select{
 	display: block;
 	width: 100%;
