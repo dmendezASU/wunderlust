@@ -123,7 +123,7 @@ q {
 	font-size: 1rem;
 	display: block;
 	margin: 1rem 0;
-	line-height: .5;
+	line-height: 1;
 }
 
 p {
@@ -132,7 +132,7 @@ p {
 	font-size: 1rem;
 	display: block;
 	margin: 1rem 0;
-	line-height: .5;
+	line-height: 1;
 }
 
 /*-----HEADER STYLES-----*/
