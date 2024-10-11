@@ -295,6 +295,13 @@ input[type=submit]{
 	display: flex;
 	justify-content: flex-start;
 	}
+
+	h2 h3{
+		margin: 0;
+		display: flex;
+		justify-content: flex-start;
+		padding: 3px;
+		}
 	
 
 #plan div {
