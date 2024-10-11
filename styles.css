@@ -373,7 +373,7 @@ input[type=submit]{
 		z-index: 2; /* and place it over the hamburger */  
 		-webkit-touch-callout: none;
 	  }
-	  
+	    /* 
 	  #menuToggle label {
 		position: relative;
 		display: block;
@@ -387,7 +387,7 @@ input[type=submit]{
 	  /*
 	   * Hamburger
 	   */
-	  #menuToggle label ul {
+	  #menuToggle label {
 		display: block;
 		width: 30px;
 		height: 2px;
