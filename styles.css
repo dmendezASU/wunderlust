@@ -599,14 +599,13 @@ img {
 
 footer{
   display: flex;
+  flex-direction: column wrap;
   background-color: var(--light-gray);
   color: var(--dark-gray);
   padding: 10px;
   line-height: 2;
 }
 footer section{
-	display:flex;
-	flex-direction: column wrap;
   max-width: 300px;
-  margin: auto;
+  margin: 6px;
 }
