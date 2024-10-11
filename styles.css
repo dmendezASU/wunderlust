@@ -302,6 +302,8 @@ header img{
 #plan div {
 	display:flex;
 	flex-flow: row wrap;
+	width: 80%;
+	
 }	
 	#plan section {
 		flex: 1 1 20em;
