@@ -237,8 +237,12 @@ input[type=email] {
 	border-radius: 4px;
   }
 
+  input[type=text] {
+	border: 2px solid var(--purple);
+	border-radius: 4px;
+  }
 
-  input[type=prefEmail] {
+  input[type=tel {
 	border: 2px solid var(--purple);
 	border-radius: 4px;
   }
