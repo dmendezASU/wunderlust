@@ -321,6 +321,7 @@ input[type=submit]{
 			margin: 13px auto;
 			padding: 5px;
 			width: 40%;
+			display:flex;
 		}
 		
 		#about img{
