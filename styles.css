@@ -326,7 +326,8 @@ input[type=submit]{
 		}
 		
 		#about img{
-			width: 60%;
+			width: auto;
+			max-height: 50%;
 		}
 	}
 
