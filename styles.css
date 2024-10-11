@@ -530,6 +530,7 @@ input[type=submit]{
 	#testimonials section {
 		flex-flow: row wrap;
 		flex-direction: row;
+		padding: 5px;
 	  }
 	
 	  #testimonials div {
