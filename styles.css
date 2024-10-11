@@ -126,6 +126,15 @@ q {
 	line-height: 1;
 }
 
+p {
+	font-weight: normal;
+	padding: 2px;
+	font-size: 1rem;
+	display: block;
+	margin: 1rem 0;
+	line-height: 1;
+}
+
 /*-----HEADER STYLES-----*/
 
 header{
@@ -466,7 +475,7 @@ input[type=submit]{
 
 footer{
   background-color: var(--light-gray);
-  color: var(--white);
+  color: var(--dark-gray);
   padding: 2rem 1rem 1rem 1rem;
   line-height: 2;
 }
