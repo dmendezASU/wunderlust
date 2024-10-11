@@ -242,7 +242,7 @@ input[type=email] {
 	border-radius: 4px;
   }
 
-  input[type=tel {
+  input[type=tel] {
 	border: 2px solid var(--purple);
 	border-radius: 4px;
   }
