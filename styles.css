@@ -232,7 +232,12 @@ label{
 	font-weight: bold;
 }
 
-input, select{
+input[type=text] {
+	border: 2px solid var(--purple);
+	border-radius: 4px;
+  }
+  
+  input, select{
 	display: block;
 	width: 100%;
 	margin-bottom: .5rem;
@@ -272,10 +277,6 @@ fieldset input{
   color: var(--purple);
 }
 
-input[type=text] {
-	border: 2px solid var(--purple);
-	border-radius: 4px;
-  }
 
 input[type=submit]{
 	display: inline-block;
