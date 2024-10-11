@@ -304,7 +304,7 @@ header img{
 	flex-flow: row wrap;
 }	
 	#plan section {
-		flex: 1;
+		flex: 1 0;
 		background-color: var(--light-blue);
 		margin: 13px auto;
 		padding: 5px;
