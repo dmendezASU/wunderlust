@@ -232,7 +232,7 @@ label{
 	font-weight: bold;
 }
 
-input[type=text] [type=email] [type=phone] {
+input[type=email] {
 	border: 2px solid var(--purple);
 	border-radius: 4px;
   }
