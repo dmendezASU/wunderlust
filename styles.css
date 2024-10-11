@@ -530,6 +530,15 @@ input[type=submit]{
 		flex-direction: row;
 	  }
 	
+	  #testimonials div {
+		display:flex;
+		flex-flow: row wrap;
+		width: 100%;
+		justify-content: center;
+		align-items: stretch;
+	
+	}	
+	
 }
 
 /* -----LARGE SCREEN STYLES-----
