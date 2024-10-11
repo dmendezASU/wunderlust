@@ -98,24 +98,24 @@ header{
   
 /*-----HEADING STYLES-----*/
   
-  h1, h2, h3, h4{
+  h1, h2, h3 {
 	font-weight: bold;
-	font-family: "Molle"
+	font-family: "Molle", sans-serif;
 }
 
 h1{
-	font-size: 1.65rem;
+	font-size: 1rem;
 	margin: 0.5rem 0;
 	text-align: center;
 }
 
 h2{
-	font-size: 1.45rem;
+	font-size: 1rem;
 	margin: 0.5rem 0;
 }
 
 h3{
-	font-size: 1.35rem;
+	font-size: 11rem;
 	margin: 1rem auto;
 }
   
