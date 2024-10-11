@@ -477,13 +477,15 @@ input[type=submit]{
 
 	  #testimonials section {
 		display:flex;
-		flex-flown: column wrap;
+		flex-flow: column wrap;
+		flex-direction: column;
 	  }
 /* -----TABLET STYLES----- */
 @media screen and (min-width:768px){
   #testimonials section {
 		display:flex;
 		flex-flow: row wrap;
+		flex-direction: row;
 	  }
 	
 }
