@@ -253,7 +253,7 @@ input[type=email] {
   input[type=tel] {
 	border: 2px solid var(--purple);
 	border-radius: 4px;
-	width: 100%;
+	width: 50%;
 	margin-bottom: .5rem;
 	padding: 1rem;
 	height: 2rem;
@@ -261,7 +261,7 @@ input[type=email] {
 
   input, select{
 	display: block;
-	width: 100%;
+	width: 50%;
 	margin-bottom: .5rem;
 	padding: 1rem;
 	height: 2rem;
