@@ -180,7 +180,7 @@ img {
 
 #plan section {
 	background-color: var(--light-blue);
-	margin:auto;
+	margin:5px auto;
 	padding: 5px;
 	width: 80%;
 }
