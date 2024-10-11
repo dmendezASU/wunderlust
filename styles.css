@@ -526,7 +526,7 @@ input[type=submit]{
 	
 	}	
 		#plan section {
-			flex: 1 1 15em;
+			display:flex;
 			flex-wrap: wrap;
 			background-color: var(--light-blue);
 			margin: 9px auto;
