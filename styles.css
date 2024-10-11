@@ -370,7 +370,7 @@ input[type=submit]{
 
 	#about div {
 		display:flex;
-		flex-flow: row wrap;
+		flex-direction: row wrap;
 		width: 50%;
 		justify-content: center;
 
