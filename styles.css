@@ -119,10 +119,10 @@ img {
 q {
 	font-style: italic;
 	font-weight: normal;
-	padding: 2px;
+	padding: 5px;
 	font-size: 1rem;
 	display: block;
-	margin: 3rem 0;
+	margin: 1rem 0;
 	line-height: .5;
 }
 
@@ -132,7 +132,7 @@ p {
 	font-size: 1rem;
 	display: block;
 	margin: 1rem 0;
-	line-height: 1;
+	line-height: .5;
 }
 
 /*-----HEADER STYLES-----*/
