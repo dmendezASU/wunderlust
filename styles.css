@@ -299,9 +299,8 @@ header img{
 	width: 100%;
 	}
 
-#plan {
+#plan div {
 	display:flex;
-	width: 80%;
 }	
 	#plan section {
 		flex: 1;
