@@ -361,7 +361,7 @@ input[type=submit]{
 	  
 	  /* The hamburger button hidden inside an input element */
 	  #menuToggle input {
-		display: none;
+		display: block;
 		width: 30px;
 		height: 30px;
 		position: absolute;
