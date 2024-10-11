@@ -51,19 +51,23 @@ table {
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Molle&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-	--light-gray: #eaeaea;
+	--light-blue: #55bcd5;
 	--white: #fff;
-	--black: #000;
+	--dark-gray: #222222;
+	--medium-blue: #499BD2;
+	--purple: #9B26B0;
+	--yellow: #F6D64A;
 	font-size: 16px;
-	font-family: Montseratt, Molle, sans-serif;
+	font-family: "Montseratt", "Molle", sans-serif;
 	
 }
 
 body {
-background-color: var(--light-gray);
+background-color: linear-gradient(--light-blue,white);
   line-height: 1.35;
   box-sizing: border-box;
   font-family: sans-serif;}
@@ -76,12 +80,13 @@ main{
 	gap: 0.5rem;
 	max-width: 1000px;
 	margin: 0 auto;
+	
   }
 
 img {
 
   }
-  
+
 
 /*-----HEADER STYLES-----*/
 header{
@@ -93,7 +98,7 @@ header{
 }
 
 #logo{
-	padding: 0;
+	padding: 1;
 }
   
 /*-----HEADING STYLES-----*/
@@ -117,6 +122,13 @@ h2{
 h3{
 	font-size: 11rem;
 	margin: 1rem auto;
+}
+
+h4{
+	font-size: 11rem;
+	margin: 1rem auto;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
 }
   
  /* -----MOBILE STYLES----- */
