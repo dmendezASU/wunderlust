@@ -596,15 +596,16 @@ img {
 */
 /* ----- FOOTER STYLES ----- */
 
+
 footer{
   display: flex;
   background-color: var(--light-gray);
   color: var(--dark-gray);
-  padding: 2rem 1rem 1rem 1rem;
+  padding: 10px;
   line-height: 2;
 }
 footer section{
 	display:flex;
   max-width: 300px;
-  margin: 2rem auto 1rem auto;
+  margin: auto;
 }
