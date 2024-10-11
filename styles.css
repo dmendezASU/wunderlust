@@ -296,11 +296,12 @@ input[type=submit]{
 	justify-content: flex-start;
 	}
 
-	h2 h3{
+	h2 {
 		margin: 2;
 		display: flex;
 		justify-content: flex-start;
 		padding: 3px;
+		font-size: 3rem;
 		}
 	
 
