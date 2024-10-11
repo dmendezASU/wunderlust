@@ -260,18 +260,7 @@ input[type=submit]{
 }
   /* ----- NAVIGATION STYLES ----- */
 
-nav {
- 
-}
 
-nav a{
-  text-align: left;
-  padding: .5rem;
-  margin: 3rem 0;
-  font-size: 1.1rem;
-  font-weight: bold;
-  border-radius: 0.25rem;
-}
 
  /* -----MOBILE STYLES----- */
 
