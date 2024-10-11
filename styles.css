@@ -291,13 +291,13 @@ input[type=submit]{
 @media screen and (min-width:428px){
 	
 	h1{
-	margin: 0;
+	margin: 2;
 	display: flex;
 	justify-content: flex-start;
 	}
 
 	h2 h3{
-		margin: 0;
+		margin: 2;
 		display: flex;
 		justify-content: flex-start;
 		padding: 3px;
