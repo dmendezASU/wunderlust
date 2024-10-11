@@ -387,7 +387,7 @@ input[type=submit]{
 	  /*
 	   * Hamburger
 	   */
-	  #menuToggle label div {
+	  #menuToggle label ul {
 		display: block;
 		width: 30px;
 		height: 2px;
