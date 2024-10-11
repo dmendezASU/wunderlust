@@ -86,7 +86,10 @@ table {
 body {
   line-height: 1.35;
   box-sizing: border-box;
-  font-family: sans-serif;}
+  font-family: sans-serif;
+  padding: 8px;
+}
+
 
 /*----- MAIN STYLES -----*/
 main{
@@ -175,6 +178,9 @@ img {
   background-color: var(--yellow);
 }
 
+#plan img {
+	background-color: var(--light-blue);
+}
 #testimonials{
 	width: 100%;
   text-align: center;
