@@ -293,6 +293,7 @@ header img{
 	flex-flow: column wrap;
 	width: 100%;
 	justify-content: center;
+	align-items: stretch;
 
 }	
 	#plan section {
