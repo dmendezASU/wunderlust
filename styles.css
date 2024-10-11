@@ -549,7 +549,7 @@ img {
 		
 		#plan img{
 			width: auto;
-			max-height: 38%;
+			max-height: 50%;
 		}
 	
 		#about div {
@@ -563,7 +563,7 @@ img {
 			#about section {
 				margin: 13px auto;
 				padding: 5px;
-				width: 40%;
+				width: 80%;
 				display:flex;
 				flex-flow: row wrap;
 			}
