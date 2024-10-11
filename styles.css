@@ -474,8 +474,17 @@ input[type=submit]{
 	  #menuToggle input:checked ~ ul {
 		left: 0;
 	  }
-/* -----TABLET STYLES----- 
+
+	  #testimonials {
+		display:flex;
+		flex-direction: column wrap;
+	  }
+/* -----TABLET STYLES----- */
 @media screen and (min-width:768px){
+  #testimonials {
+		display:flex;
+		flex-direction: row wrap;
+	  }
 	
 }
 
