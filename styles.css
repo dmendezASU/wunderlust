@@ -311,6 +311,7 @@ header img{
 		width: 80%;
 		border: 2px solid white;
 		border-radius: 3%;
+		min-width: 340px;
 	}
 	
 	#plan img{
