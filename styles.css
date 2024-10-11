@@ -475,13 +475,13 @@ input[type=submit]{
 		left: 0;
 	  }
 
-	  #testimonials {
+	  #testimonials section {
 		display:flex;
 		flex-flown: column wrap;
 	  }
 /* -----TABLET STYLES----- */
 @media screen and (min-width:768px){
-  #testimonials {
+  #testimonials section {
 		display:flex;
 		flex-flow: row wrap;
 	  }
