@@ -340,7 +340,7 @@ input[type=submit]{
 	img {
 		max-width: 100%;
 		height: auto;
-		flex: auto;
+		display:flex;
 	}
 	
 
@@ -379,7 +379,7 @@ input[type=submit]{
 		#about section {
 			margin: 13px auto;
 			padding: 5px;
-			width: 40%;
+			width: 80%;
 			display:flex;
 			flex-flow: column wrap;
 		}
