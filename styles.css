@@ -301,7 +301,7 @@ header img{
 
 #plan div {
 	display:flex;
-	flex-flow: row wrap;
+	flex-flow: column wrap;
 	width: 80%;
 	justify-content: center;
 
