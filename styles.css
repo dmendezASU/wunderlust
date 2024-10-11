@@ -68,6 +68,15 @@ table {
 	
 }
 
+.sr-only{
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
 /*------SKIP LINK STYLES-----*/
 
 #skip{
@@ -285,6 +294,7 @@ input[type=submit]{
 	justify-content: flex-start;
 	width: 100%;
 	}
+header #
 
 #plan div {
 	display:flex;
