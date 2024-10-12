@@ -96,27 +96,18 @@ body {
   line-height: 1.35;
   box-sizing: border-box;
   font-family: sans-serif;
-  padding: 8px;
 }
 
 
 /*----- MAIN STYLES -----*/
 main{
-	padding: 5rem;
-	max-width: 1920px;
-	margin: 0 auto;
+	width: 100%;
   }
-
-img {
-   display: block;
-    max-width: 100%;
-    margin: 0.5em 0;
-}
 
 q {
 	font-style: italic;
 	font-weight: normal;
-	padding: 5px;
+	padding: 1px;
 	font-size: 1rem;
 	display: block;
 	margin: 1rem 0;
@@ -128,7 +119,6 @@ p {
 	padding: 2px;
 	font-size: 1rem;
 	display: block;
-	margin: 1rem 0;
 	line-height: 1;
 }
 
@@ -136,10 +126,7 @@ p {
 
 header{
 	width: 100%;
-	display: flex;
-	flex-flow: column wrap;
-	align-content: space-evenly;
-	padding: 5rem;
+	padding: 5px;
   background-image: linear-gradient(#55bcd5, #fff);
 }
 
@@ -158,23 +145,18 @@ header{
 
 h1{
 	font-size: 3.5rem;
-	margin: 2rem 0;
-	
 }
 
 h2{
 	font-size: 3rem;
-	margin: 2rem 0;
 }
 
 h3{
 	font-size: 2rem;
-	margin: 2rem auto;
 }
 
 h4{
 	font-size: 1rem;
-	margin: 1rem;
 	font-family: "Montserrat", sans-serif;
 	font-weight: bold;
   text-align: center;
@@ -183,49 +165,44 @@ h4{
  /* ----- SECTION STYLES ----- */
 
 #intro{
-	width: 100%;
+	width: 90%;
   text-align: left;
-  padding: 2;
+  padding: 5px;
 }
 
 section {
-	padding:5%;
+	padding:10%;
   }
 
-img {
-	display: block;
-  }
 
 #plan{
+	display:block;
 	width: 100%;
   text-align: center;
-  padding: 2px;
-  display: block;
+  font-size: 12px;
   background-color: var(--yellow);
 }
 
 
 #testimonials{
-	width: 60;
+	width: 60%;
   text-align: center;
   font-size: 12px;
-  padding: 4px;
- 
 }
 
 img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 8px;
   }
 
 #about{
-	display: block;
-  width: 100%;
-  text-align: center;
-  font-size: 12px;
-  padding: 2;
-   background-color: var(--medium-blue);
+display: block;
+width: 100%;
+text-align: center;
+font-size: 12px;
+background-color: var(--medium-blue);
 }
 
 label{
@@ -324,51 +301,55 @@ input[type=submit]{
 	flex-direction: column;
 	
 	h1{
-	margin: 7;
+	margin: 4px;
 	display: flex;
 	justify-content: flex-start;
 	}
 
 	h2 {
-		margin: 2;
+		margin: 2px;
 		display: flex;
 		justify-content: flex-start;
 		padding: 3px;
 		}
 
 	img {
-		max-width: 100%;
-		height: auto;
+		max-width: 90%;
+		height: 90;
 		display:flex;
 	}
-	
+
 	#plan div {
 		flex-flow: column;
-		width: 100%;
-		justify-content: center;
-		align-items: stretch;
-	
-	}	
-		#plan section {
-			flex: 1 1 20em;
-			background-color: var(--light-blue);
-			margin: 8px auto;
-			padding: 7px;
-			width: 100%%;
-			border: 2px solid white;
-			border-radius: 3%;
-			height: 80%;
-		}
-		
-		#plan img{
-			width: auto;
-			max-height: 60%;
-		}
+        width: 100%;
+        justify-content: center;
+        align-items: stretch;
+    
+    }   
+        #plan section {
+            flex: 1 1 20em;
+			align-content: flex-start;
+            flex-flow:column wrap;
+            background-color: var(--light-blue);
+            margin: 8px auto;
+            padding: 7px;
+            max-width: 300px;
+            border: 2px solid white;
+            border-radius: 3%;
+            height: 80%;
+        }
+        
+        #plan img{
+            width: auto;
+            max-height: 150px;
+            max-width: 150px;
+        }
+
 	
 		#about div {
 			display:flex;
 			flex-direction: row wrap;
-			width: 35%;
+			width: 50%;
 			justify-content: center;
 	
 		
@@ -376,7 +357,7 @@ input[type=submit]{
 			#about section {
 				margin: 13px auto;
 				padding: 5px;
-				width: 35%;
+				width: 50%;
 				display:flex;
 				flex-flow: column wrap;
 			}
@@ -387,9 +368,10 @@ input[type=submit]{
 			}
 	
 			#testimonials section {
-				display:flex;
+				display: flex;
 				flex-flow: column wrap;
 				flex-direction: column;
+				padding: 8px;
 			  }
 
 
