@@ -518,7 +518,7 @@ input[type=submit]{
 		justify-content: center;
 	  }
 	}
-/* -----TABLET STYLES----- */
+/* -----TABLET STYLES-----
 @media screen and (min-width:768px){
 	flex-direction: row;
 
@@ -588,7 +588,7 @@ img {
 	}	
 	
 }
-
+ */
 /* -----LARGE SCREEN STYLES-----
 @media screen and (min-width:1920px){
 	
