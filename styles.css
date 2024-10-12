@@ -321,6 +321,7 @@ input[type=submit]{
             border: 2px solid white;
             border-radius: 3%;
             height: 80%;
+			margin: 5px;
         }
         
         #plan img{
@@ -484,9 +485,9 @@ input[type=submit]{
 @media screen and (min-width:768px){
 
 	img {
-		max-width: 90%;
-		height: 90;
-		display:flex;
+		max-width: auto;
+		height: auto;
+		display: flex;
 	}
 
 	#plan div {
@@ -499,9 +500,11 @@ input[type=submit]{
         #plan section {
             
 			background-color: var(--light-blue);
-            padding: 7px;
+            padding: 15px;
             border: 2px solid white;
             border-radius: 3%;
+			justify-content: space-evenly;
+			margin: 5px;
 			
         }
         
@@ -534,11 +537,7 @@ input[type=submit]{
 				max-height: 50%;
 			}
 		
-			#testimonial img {
-				width: auto;
-				max-height: 200px;
-				max-width: 200px;
-			}
+
 			#testimonials div {
 				display: flex;
 				flex-wrap: wrap;
@@ -547,19 +546,19 @@ input[type=submit]{
 	
 			#testimonials section {
 				display: flex;
-				flex-flow: column wrap;
-				flex-direction: column;
+				flex-flow: row wrap;
+				flex-direction: row;
 				padding: 8px;
 			  }
 
 	
 }
  
-/* -----LARGE SCREEN STYLES-----
+/* -----LARGE SCREEN STYLES-----*/
 @media screen and (min-width:1920px){
 	
 }
-*/
+
 /* ----- FOOTER STYLES ----- */
 
 
