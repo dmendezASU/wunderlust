@@ -391,10 +391,7 @@ input[type=submit]{
 				flex-flow: column wrap;
 				flex-direction: column;
 			  }
-		
-			  #contact div {
-				display:flex;
-			  }
+
 
 	#menuToggle {
 		display: block;
