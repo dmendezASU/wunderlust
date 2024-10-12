@@ -171,7 +171,7 @@ h4{
 }
 
 section {
-	padding:10%;
+	padding:5px;
   }
 
 
@@ -298,21 +298,7 @@ input[type=submit]{
  /* -----MOBILE STYLES----- */
 
 @media screen and (min-width:428px){
-	flex-direction: column;
 	
-	h1{
-	margin: 4px;
-	display: flex;
-	justify-content: flex-start;
-	}
-
-	h2 {
-		margin: 2px;
-		display: flex;
-		justify-content: flex-start;
-		padding: 3px;
-		}
-
 	img {
 		max-width: 90%;
 		height: 90;
@@ -330,7 +316,6 @@ input[type=submit]{
 			align-content: flex-start;
             flex-flow:column wrap;
             background-color: var(--light-blue);
-            margin: 8px auto;
             padding: 7px;
             max-width: 300px;
             border: 2px solid white;
@@ -498,6 +483,74 @@ input[type=submit]{
 /* -----TABLET STYLES-----*/
 @media screen and (min-width:768px){
 
+	img {
+		max-width: 90%;
+		height: 90;
+		display:flex;
+	}
+
+	#plan div {
+		width: 100%;
+		justify-content: center;
+     display: flex;
+	 flex-wrap: wrap;
+	 flex-flow: row;
+    }   
+        #plan section {
+            
+			background-color: var(--light-blue);
+            padding: 7px;
+            border: 2px solid white;
+            border-radius: 3%;
+			
+        }
+        
+        #plan img{
+            width: auto;
+            max-height: 150px;
+            max-width: 150px;
+        }
+
+	
+		#about div {
+			display:flex;
+			flex-direction: row wrap;
+			width: 50%;
+			justify-content: center;
+	
+		
+		}	
+			#about section {
+				margin: 13px auto;
+				padding: 5px;
+				width: 50%;
+				display:flex;
+				flex-flow: column wrap;
+				align-content: flex-start;
+			}
+			
+			#about img{
+				width: auto;
+				max-height: 50%;
+			}
+		
+			#testimonial img {
+				width: auto;
+				max-height: 200px;
+				max-width: 200px;
+			}
+			#testimonials div {
+				display: flex;
+				flex-wrap: wrap;
+				flex-flow: row;
+			}
+	
+			#testimonials section {
+				display: flex;
+				flex-flow: column wrap;
+				flex-direction: column;
+				padding: 8px;
+			  }
 
 	
 }
