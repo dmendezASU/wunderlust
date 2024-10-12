@@ -317,10 +317,10 @@ input[type=submit]{
             flex-flow:column wrap;
             background-color: var(--light-blue);
             padding: 7px;
-            max-width: 300px;
             border: 2px solid white;
             border-radius: 3%;
             height: 80%;
+			max-width: 300px;
 			margin: 5px;
         }
         
@@ -498,7 +498,6 @@ input[type=submit]{
 	 flex-flow: row;
     }   
         #plan section {
-            
 			background-color: var(--light-blue);
             padding: 15px;
             border: 2px solid white;
@@ -557,6 +556,77 @@ input[type=submit]{
 /* -----LARGE SCREEN STYLES-----*/
 @media screen and (min-width:1920px){
 	
+	img {
+		max-width: auto;
+		height: auto;
+		display: flex;
+	}
+
+	#plan div {
+		width: 100%;
+     display: flex;
+	 flex-flow: row;
+	 align-items: stretch;
+    }   
+       
+	#plan section {
+			background-color: var(--light-blue);
+            border: 2px solid white;
+            border-radius: 3%;
+			width:
+			
+        }
+        
+        #plan img{
+            width: 100%;
+            max-height:100px;
+            max-width: 100px;
+        }
+
+	
+		#about div {
+			display:flex;
+			flex-direction: row wrap;
+			width: 50%;
+			justify-content: center;
+	
+		
+		}	
+			#about section {
+				margin: 13px auto;
+				padding: 5px;
+				width: 50%;
+				display:flex;
+				flex-flow: column wrap;
+				align-content: flex-start;
+				justify-content: center;
+				
+			}
+			
+			#about img{
+				width: auto;
+				max-height: 50%;
+			}
+		
+
+			#testimonials div {
+				display: flex;
+				flex-wrap: wrap;
+				flex-flow: row;
+			}
+	
+			#testimonials section {
+				display: flex;
+				flex-flow: row wrap;
+				flex-direction: row;
+				padding: 8px;
+			  }
+			
+			#contact {
+				display:flex;
+				flex-wrap: wrap;
+				flex-direction: row;
+			}
 }
 
 /* ----- FOOTER STYLES ----- */
