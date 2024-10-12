@@ -327,7 +327,6 @@ input[type=submit]{
     
     }   
         #plan section {
-            flex: 1 1 20em;
 			align-content: flex-start;
             flex-flow:column wrap;
             background-color: var(--light-blue);
@@ -360,12 +359,14 @@ input[type=submit]{
 				width: 50%;
 				display:flex;
 				flex-flow: column wrap;
+				align-content: flex-start;
 			}
 			
 			#about img{
 				width: auto;
 				max-height: 50%;
 			}
+		
 	
 			#testimonials section {
 				display: flex;
