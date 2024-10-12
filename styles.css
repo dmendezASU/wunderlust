@@ -156,6 +156,7 @@ header{
 	font-weight: bold;
 	font-family: "Molle", sans-serif;
   text-align: left;
+  padding; 2;
 }
 
 h1{
@@ -347,7 +348,7 @@ input[type=submit]{
 #plan div {
 	display:flex;
 	flex-flow: column wrap;
-	width: 35%;
+	width: 75%%;
 	justify-content: center;
 	align-items: stretch;
 
@@ -357,7 +358,7 @@ input[type=submit]{
 		background-color: var(--light-blue);
 		margin: 8px auto;
 		padding: 15px;
-		width: 80%;
+		width: 100%;
 		border: 2px solid white;
 		border-radius: 3%;
 		height: 100%;
