@@ -342,50 +342,6 @@ input[type=submit]{
 	}
 	
 
-#plan div {
-	display:flex;
-	flex-flow: column wrap;
-	width: 75%%;
-	justify-content: center;
-	align-items: stretch;
-
-}	
-	#plan section {
-		flex: 1 1 20em;
-		background-color: var(--light-blue);
-		margin: 8px auto;
-		padding: 15px;
-		width: 100%;
-		border: 2px solid white;
-		border-radius: 3%;
-		height: 100%;
-	}
-	
-	#plan img{
-		width: auto;
-		max-height: 75%;
-	}
-
-	#about div {
-		display:flex;
-		flex-direction: row wrap;
-		width: 50%;
-		justify-content: center;
-
-	
-	}	
-		#about section {
-			margin: 13px auto;
-			padding: 5px;
-			width: 50%;
-			display:flex;
-			flex-flow: column wrap;
-		}
-		
-		#about img{
-			width: auto;
-			max-height: 50%;
-		}
 	
 
 	#menuToggle {
